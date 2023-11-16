@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ffa07a;
+}
+
+.container {
+  width: 80%;
+  background-color: lightgrey;
+  margin: 40px auto;
+  border-radius: 1rem;
+  box-shadow: 5px 5px 75px black;
+}
