@@ -14,7 +14,7 @@ body {
 
 .container {
   width: 80%;
-  background-color: lightgrey;
+  background-color: whitesmoke;
   margin: 45px auto;
   border-radius: 2rem;
   box-shadow: 5px 5px 60px black;
@@ -42,16 +42,53 @@ body {
 
 .logo {
   height: 50px;
-  padding: 0.3rem;
+  padding: 0.5rem;
   border-radius: 1rem;
   box-shadow: -2px 2px 5px;
   margin: 1rem;
 }
-.allCategories {
+
+select {
   font-family: "Bellota", cursive;
-  height: 2rem;
+  height: 40px;
   width: 190px;
   font-weight: 600;
-  border-radius: 5px;
-  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  background-color: #d9d9d9;
+  padding: 5px;
+}
+.search-a {
+  height: 40px;
+  width: 300px;
+  background-color: #d9d9d9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 4px;
+}
+.search-a input {
+  border: none;
+  outline: none;
+  background-color: inherit;
+  padding: 10px;
+}
+
+.magnifier {
+  height: 30px;
+  width: 30px;
+  margin: 1rem;
+}
+
+.support {
+  font-size: 1.5rem;
+  text-align: right;
+}
+
+.support-number {
+  font-weight: 600;
+}
+
+.support-text {
+  font-size: 1rem;
 }
